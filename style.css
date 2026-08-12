@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #f4f4f0;
+    color: #2b2b2b;
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
@@ -23,10 +23,12 @@ header {
 h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    color: #2b2b2b;
 }
 
 p.description {
     font-size: 1rem;
+    color: #666666;
 }
 
 .grid {
@@ -37,11 +39,11 @@ p.description {
 
 .card {
     aspect-ratio: 1 / 1;
-    border: 2px solid #000000;
-    border-radius: 0px;
+    border: 2px solid #cccccc;
+    border-radius: 0;
     padding: 1rem;
     text-decoration: none;
-    color: #000000;
+    color: #2b2b2b;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -49,8 +51,8 @@ p.description {
 }
 
 .card:hover {
-    background-color: #000000;
-    color: #ffffff;
+    border-color: #888888;
+    background-color: #eaeaea;
 }
 
 .card h2 {
@@ -59,4 +61,5 @@ p.description {
 
 .card p {
     font-size: 0.85rem;
+    color: #666666;
 }
